@@ -1,0 +1,27 @@
+2026-04-05 22:58:33,142 - INFO - Training data independent size : (8276, 32)
+2026-04-05 22:58:33,143 - INFO - Training data dependent size : (8276,)
+2026-04-05 22:58:33,143 - INFO - testing data independent size : (1409, 32)
+2026-04-05 22:58:33,143 - INFO - testing data dependent size : (1409,)
+2026-04-05 22:58:33,166 - INFO - before    SeniorCitizen  tenure_mad  MonthlyCharges_mad  TotalCharges_mode_mad  ...  Networks_BSNL  Networks_Idea  Networks_Jio  Contract_od
+0              0    6.721004           52.205355              20.764275  ...            1.0            0.0           0.0          1.0
+
+[1 rows x 32 columns]
+2026-04-05 22:58:33,173 - INFO - [[0.         0.11863154 0.92146972 ... 0.         0.         0.01765087]
+ [0.         0.13585723 0.91743047 ... 0.01202822 0.         0.02405643]
+ [0.         0.03910344 0.96455965 ... 0.         0.         0.        ]
+ ...
+ [0.         0.09933803 0.9430926  ... 0.00248589 0.         0.        ]
+ [0.         0.37151769 0.63032408 ... 0.         0.00215298 0.03806996]
+ [0.         0.11901246 0.92643057 ... 0.00201734 0.01338527 0.        ]]
+2026-04-05 22:59:24,411 - INFO - [[771 265]
+ [ 68 305]]
+2026-04-05 22:59:24,414 - INFO - 0.7636621717530163
+2026-04-05 22:59:24,431 - INFO -               precision    recall  f1-score   support
+
+           0       0.92      0.74      0.82      1036
+           1       0.54      0.82      0.65       373
+
+    accuracy                           0.76      1409
+   macro avg       0.73      0.78      0.73      1409
+weighted avg       0.82      0.76      0.78      1409
+

@@ -1,0 +1,288 @@
+2026-04-05 22:58:31,237 - INFO - total data size : (7043, 21)
+2026-04-05 22:58:31,242 - INFO - null values : 
+ : customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+dtype: int64
+2026-04-05 22:58:31,253 - INFO - None
+2026-04-05 22:58:31,254 - INFO - total data size : (7043, 21)
+2026-04-05 22:58:31,262 - INFO - null values : 
+gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+TotalCharges        11
+Churn                0
+Networks             0
+dtype: int64
+2026-04-05 22:58:31,263 - INFO - <StringArray>
+['Jio', 'Idea', 'Airtel', 'BSNL']
+Length: 4, dtype: str
+2026-04-05 22:58:31,274 - INFO - before handling missing value x_train shape and columns : (5634, 20) 
+ : Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'Networks'],
+      dtype='str')  : gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+TotalCharges        10
+Networks             0
+dtype: int64
+2026-04-05 22:58:31,276 - INFO - before handling missing value x_test shape and columns : (1409, 20) 
+ : Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'Networks'],
+      dtype='str') : gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        1
+Networks            0
+dtype: int64
+2026-04-05 22:58:31,297 - INFO - After handling missing value x_train shape and columns : (5634, 20) 
+ : Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'Networks', 'TotalCharges_mode'],
+      dtype='str')  : gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+Networks             0
+TotalCharges_mode    0
+dtype: int64
+2026-04-05 22:58:31,299 - INFO - After handling missing value x_test shape and columns : (1409, 20) 
+ : Index(['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'Networks', 'TotalCharges_mode'],
+      dtype='str') : gender               0
+SeniorCitizen        0
+Partner              0
+Dependents           0
+tenure               0
+PhoneService         0
+MultipleLines        0
+InternetService      0
+OnlineSecurity       0
+OnlineBackup         0
+DeviceProtection     0
+TechSupport          0
+StreamingTV          0
+StreamingMovies      0
+Contract             0
+PaperlessBilling     0
+PaymentMethod        0
+MonthlyCharges       0
+Networks             0
+TotalCharges_mode    0
+dtype: int64
+2026-04-05 22:58:31,300 - INFO - SeniorCitizen  (DATA TYPE) : int64
+2026-04-05 22:58:31,300 - INFO - tenure  (DATA TYPE) : int64
+2026-04-05 22:58:31,300 - INFO - MonthlyCharges  (DATA TYPE) : float64
+2026-04-05 22:58:31,300 - INFO - TotalCharges_mode  (DATA TYPE) : float64
+2026-04-05 22:58:31,300 - INFO - Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str') : (5634, 4)
+2026-04-05 22:58:31,300 - INFO - Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str') : (1409, 4)
+2026-04-05 22:58:31,300 - INFO - ================================================================
+2026-04-05 22:58:31,301 - INFO - Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'Networks'],
+      dtype='str') : (5634, 16)
+2026-04-05 22:58:31,301 - INFO - Index(['gender', 'Partner', 'Dependents', 'PhoneService', 'MultipleLines',
+       'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection',
+       'TechSupport', 'StreamingTV', 'StreamingMovies', 'Contract',
+       'PaperlessBilling', 'PaymentMethod', 'Networks'],
+      dtype='str') : (1409, 16)
+2026-04-05 22:58:31,301 - INFO - Before Train columns names : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-04-05 22:58:31,301 - INFO - Before test columns names : Index(['SeniorCitizen', 'tenure', 'MonthlyCharges', 'TotalCharges_mode'], dtype='str')
+2026-04-05 22:58:31,367 - INFO - After Train columns names : Index(['SeniorCitizen', 'tenure_mad', 'MonthlyCharges_mad',
+       'TotalCharges_mode_mad'],
+      dtype='str')
+2026-04-05 22:58:31,367 - INFO - After test columns names : Index(['SeniorCitizen', 'tenure_mad', 'MonthlyCharges_mad',
+       'TotalCharges_mode_mad'],
+      dtype='str')
+2026-04-05 22:58:31,409 - INFO - ========================================================================================
+2026-04-05 22:58:31,409 - INFO - final training data : (5634, 32)
+2026-04-05 22:58:31,409 - INFO - Index(['SeniorCitizen', 'tenure_mad', 'MonthlyCharges_mad',
+       'TotalCharges_mode_mad', 'gender_Male', 'Partner_Yes', 'Dependents_Yes',
+       'PhoneService_Yes', 'MultipleLines_No phone service',
+       'MultipleLines_Yes', 'InternetService_Fiber optic',
+       'InternetService_No', 'OnlineSecurity_No internet service',
+       'OnlineSecurity_Yes', 'OnlineBackup_No internet service',
+       'OnlineBackup_Yes', 'DeviceProtection_No internet service',
+       'DeviceProtection_Yes', 'TechSupport_No internet service',
+       'TechSupport_Yes', 'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Networks_BSNL', 'Networks_Idea', 'Networks_Jio', 'Contract_od'],
+      dtype='str')
+2026-04-05 22:58:31,410 - INFO - training data null values : SeniorCitizen                            0
+tenure_mad                               0
+MonthlyCharges_mad                       0
+TotalCharges_mode_mad                    0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Networks_BSNL                            0
+Networks_Idea                            0
+Networks_Jio                             0
+Contract_od                              0
+dtype: int64
+2026-04-05 22:58:31,410 - INFO - final testing data : (1409, 32)
+2026-04-05 22:58:31,410 - INFO - Index(['SeniorCitizen', 'tenure_mad', 'MonthlyCharges_mad',
+       'TotalCharges_mode_mad', 'gender_Male', 'Partner_Yes', 'Dependents_Yes',
+       'PhoneService_Yes', 'MultipleLines_No phone service',
+       'MultipleLines_Yes', 'InternetService_Fiber optic',
+       'InternetService_No', 'OnlineSecurity_No internet service',
+       'OnlineSecurity_Yes', 'OnlineBackup_No internet service',
+       'OnlineBackup_Yes', 'DeviceProtection_No internet service',
+       'DeviceProtection_Yes', 'TechSupport_No internet service',
+       'TechSupport_Yes', 'StreamingTV_No internet service', 'StreamingTV_Yes',
+       'StreamingMovies_No internet service', 'StreamingMovies_Yes',
+       'PaperlessBilling_Yes', 'PaymentMethod_Credit card (automatic)',
+       'PaymentMethod_Electronic check', 'PaymentMethod_Mailed check',
+       'Networks_BSNL', 'Networks_Idea', 'Networks_Jio', 'Contract_od'],
+      dtype='str')
+2026-04-05 22:58:31,411 - INFO - testing data null values : SeniorCitizen                            0
+tenure_mad                               0
+MonthlyCharges_mad                       0
+TotalCharges_mode_mad                    0
+gender_Male                              0
+Partner_Yes                              0
+Dependents_Yes                           0
+PhoneService_Yes                         0
+MultipleLines_No phone service           0
+MultipleLines_Yes                        0
+InternetService_Fiber optic              0
+InternetService_No                       0
+OnlineSecurity_No internet service       0
+OnlineSecurity_Yes                       0
+OnlineBackup_No internet service         0
+OnlineBackup_Yes                         0
+DeviceProtection_No internet service     0
+DeviceProtection_Yes                     0
+TechSupport_No internet service          0
+TechSupport_Yes                          0
+StreamingTV_No internet service          0
+StreamingTV_Yes                          0
+StreamingMovies_No internet service      0
+StreamingMovies_Yes                      0
+PaperlessBilling_Yes                     0
+PaymentMethod_Credit card (automatic)    0
+PaymentMethod_Electronic check           0
+PaymentMethod_Mailed check               0
+Networks_BSNL                            0
+Networks_Idea                            0
+Networks_Jio                             0
+Contract_od                              0
+dtype: int64
+2026-04-05 22:58:31,412 - INFO - Number of Rows for GOOD customer 1 : 1496
+2026-04-05 22:58:31,412 - INFO - Number of Rows for BAD customer 0 : 4138
+2026-04-05 22:58:31,412 - INFO - Training data size : (5634, 32)
+2026-04-05 22:58:33,142 - INFO - Number of Rows for GOOD customer 1 : 4138
+2026-04-05 22:58:33,142 - INFO - Number of Rows for BAD customer 0 : 4138
+2026-04-05 22:58:33,142 - INFO - Training data size : (8276, 32)
